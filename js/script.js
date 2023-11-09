@@ -311,3 +311,15 @@ const scriptURL = "https://script.google.com/macros/s/AKfycby-TIGP5hd3qZDQkAWczf
       function closePopup9() {
         document.querySelector('.popup9').style.display = 'none';
       }
+
+      function openPopup10() {
+        document.querySelector('.popup-title10').textContent;
+        document.querySelector('.popup-description10').textContent;
+        document.querySelector('.popup-tools10').innerHTML;
+        document.querySelector('.popup-demo10').innerHTML;
+        document.querySelector('.popup10').style.display = 'block';
+      }
+      
+      function closePopup10() {
+        document.querySelector('.popup10').style.display = 'none';
+      }
