@@ -615,6 +615,10 @@ h3.my-proffession {
   text-align: center;
 }
 
+.about .about-content .patent h3.title {
+  margin-top: 5px
+}
+
 .about .about-content .timeline-box {
   flex: 0 0 100%;
   max-width: 100%;
