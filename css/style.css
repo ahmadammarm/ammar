@@ -598,7 +598,8 @@ h3.my-proffession {
 }
 
 .about .about-content .education,
-.about .about-content .certificates {
+.about .about-content .certificates,
+.about .about-content .patent {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
@@ -652,7 +653,12 @@ h3.my-proffession {
   top: 0;
   background-color: var(--skin-color);
 }
+
 .about .about-content .certificates .timeline .timeline-item::before {
+  display: none;
+}
+
+.about .about-content .patent .timeline .timeline-item::before {
   display: none;
 }
 
@@ -1889,6 +1895,7 @@ form .row .contact-form .btn {
 
   .about .about-content .education,
   .about .about-content .certificates,
+  .about .about-content .patent,
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
