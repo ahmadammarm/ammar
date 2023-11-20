@@ -715,6 +715,58 @@ h3.my-proffession {
   color: var(--bg-black-50);
 }
 
+.popup-skills {
+  display: flex;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  flex-direction: column;
+  z-index: 1;
+  display: none;
+
+}
+
+.popup-skills-content {
+  background-color: #0e0e0e;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-skills-content .skill {
+  margin: 10px;
+}
+
+.popup-skills-content h2 {
+  color: var(--skin-color);
+  font-size: 15px;
+}
+
+.popup-skills-content p {
+  color: var(--text-grey);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.skills-info img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  width: 70px;
+  height: 65px;
+}
+
 /* Service CSS */
 
 .service {
