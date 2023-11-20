@@ -2004,6 +2004,10 @@ form .row .contact-form .btn {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .popup-skills .popup-skills-content .skill {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .socmed-links {
     display: flex;
     justify-content: center;
