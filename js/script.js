@@ -161,6 +161,23 @@ const scriptURL = "https://script.google.com/macros/s/AKfycby-TIGP5hd3qZDQkAWczf
         loadingScreen.style.display = "none";
       }
 
+// Skills Popup
+document.addEventListener("DOMContentLoaded", function () {
+        const skillsButton = document.querySelector(".skills");
+        const popup = document.querySelector(".popup-skills");
+    
+        skillsButton.addEventListener("click", function (e) {
+            e.preventDefault();
+            popup.style.display = "block";
+        });
+    
+        window.addEventListener("click", function (e) {
+            if (e.target !== popup && !popup.contains(e.target) && e.target !== skillsButton) {
+                popup.style.display = "none";
+            }
+        });
+    });
+
       function hideLoadingScreenAndShowHome() {
         const loadingScreen = document.getElementById("loadingScreen");
         const mainContainer = document.querySelector(".main-container");
