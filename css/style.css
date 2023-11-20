@@ -1846,8 +1846,8 @@ form .row .contact-form .btn {
     max-width: 100%;
   }
   .popup-skills .popup-skills-content .skill {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .socmed-links {
     display: flex;
