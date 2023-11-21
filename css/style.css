@@ -699,7 +699,13 @@ h3.my-proffession {
   margin-bottom: 15px;
   width: 70px;
   height: 65px;
+  transition: all 0.5s ease;
 }
+
+.skills-info img:hover {
+  transform: scale(0.8);
+}
+
 
 
 
