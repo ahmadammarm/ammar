@@ -173,7 +173,6 @@ ul {
   border-left: 5px solid var(--skin-color);
   bottom: 0;
   left: 0;
-  animation: zoomInOut 0.3s infinite alternate;
 }
 
 .aside .logo a::after {
@@ -185,19 +184,6 @@ ul {
   border-right: 5px solid var(--skin-color);
   top: 0;
   right: 0;
-  animation: zoomInOut 0.10s infinite alternate;
-}
-
-@keyframes zoomInOut {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 .aside .nav-toggler {
