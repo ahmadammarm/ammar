@@ -339,15 +339,17 @@ h3.my-proffession {
 
 .home .home-img img {
   margin: auto;
-  height: 350px;
+  height: 270px;
+  width: 400px;
   position: absolute;
   border-radius: 50%;
   top: 0;
-  left: 0;
-  max-width: 100%;
+  left: -10%;
+  max-width: 90%;
   transition: all 0.5s ease;
   padding-left: 6rem;
 }
+
 
 
 
