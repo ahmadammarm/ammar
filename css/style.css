@@ -351,39 +351,6 @@ h3.my-proffession {
   position: relative;
 }
 
-.home-img::before {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  left: 20px;
-  top: -40px;
-  border-top: 8px solid var(--skin-color);
-  border-left: 8px solid var(--skin-color);
-  animation: zoomInOut 0.5s infinite alternate;
-}
-
-.home-img::after {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  right: 20px;
-  bottom: -40px;
-  border-bottom: 8px solid var(--skin-color);
-  border-right: 8px solid var(--skin-color);
-  animation: zoomInOut 0.5s infinite alternate;
-}
-
-@keyframes zoomInOut {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-}
-
 .home .home-img img {
   margin: auto;
   height: 350px;
