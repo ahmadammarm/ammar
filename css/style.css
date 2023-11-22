@@ -185,7 +185,7 @@ ul {
   border-right: 5px solid var(--skin-color);
   top: 0;
   right: 0;
-  animation: zoomInOut 0.3s infinite alternate;
+  animation: zoomInOut 0.10s infinite alternate;
 }
 
 @keyframes zoomInOut {
